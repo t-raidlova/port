@@ -67,6 +67,7 @@ form {
 	button {
 		margin: 2rem 0;
 	}
+	textarea,
 	input {
 		margin: 1rem 0;
 		font-size: 1.6rem;
@@ -75,7 +76,6 @@ form {
 		border: 1px solid #ddd;
 		width: 50%;
 	}
-
 	@media screen and (max-width: 576px) {
 		input {
 			width: 90%;
