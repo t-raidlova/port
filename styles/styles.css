@@ -218,8 +218,13 @@ a.link-underline:hover:before {
   display: flex;
 }
 
-.summary .project-links button {
-  margin-right: 2rem;
+button {
+  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  margin: 0rem 2rem 2rem 0;
   padding: 1rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,32 +243,31 @@ a.link-underline:hover:before {
   opacity: 0.9;
 }
 
-.summary .project-links button a {
-  font-weight: 600;
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
-  font-size: 1.6rem;
-  line-height: 21px;
-  letter-spacing: 0.5px;
-}
-
-.summary .project-links button.primary {
+button.primary {
   background-color: var(--primary);
-}
-
-.summary .project-links button.primary a {
   color: #f0f0f0;
 }
 
-.summary .project-links button.secondary {
+button.primary a {
+  color: #f0f0f0;
+}
+
+button.secondary {
   background-color: white;
 }
 
-.summary .project-links button:hover {
+button:hover {
   -webkit-transform: translate(0, -3px);
   transform: translate(0, -3px);
-  -webkit-box-shadow: 0 6px 10px #d6d6d8;
-          box-shadow: 0 6px 10px #d6d6d8;
+  -webkit-box-shadow: 0 6px 10px #c7c7c9;
+          box-shadow: 0 6px 10px #c7c7c9;
   opacity: 1;
+}
+
+button a {
+  font-size: 1.6rem;
+  line-height: 21px;
+  letter-spacing: 0.5px;
 }
 
 @media (min-width: 650px) {
@@ -406,5 +410,45 @@ body::-webkit-scrollbar-thumb {
 
 .home {
   padding: 0.5rem 0 1rem 0;
+}
+
+#contact {
+  margin-top: 8rem;
+  background-color: #ececec;
+}
+
+form {
+  min-height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+form button {
+  margin: 2rem 0;
+}
+
+form input {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.5rem;
+  border: 1px solid #ddd;
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  form input {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
