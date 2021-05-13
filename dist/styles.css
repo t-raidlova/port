@@ -1,68 +1,78 @@
 /* merriweather 300 */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 300;
-  src: url("../assets/fonts/merriweather-v11-latin-300.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-300.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-300.woff2") format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-300.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather 300 italic */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 300;
-  src: url("../assets/fonts/merriweather-v11-latin-300italic.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-300italic.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-300italic.woff2")
+      format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-300italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather regular */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
-  src: url("../assets/fonts/merriweather-v11-latin-regular.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-regular.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather italic*/
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 400;
-  src: url("../assets/fonts/merriweather-v11-latin-italic.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-italic.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-italic.woff2") format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather 700 */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
-  src: url("../assets/fonts/merriweather-v11-latin-700.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-700.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-700.woff2") format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather 700 italic */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 700;
-  src: url("../assets/fonts/merriweather-v11-latin-700italic.woff2") format("woff2"), url("../assets/fonts/merriweather-v11-latin-700italic.woff") format("woff");
+  src: url("./assets/fonts/merriweather-v11-latin-700italic.woff2")
+      format("woff2"),
+    url("./assets/fonts/merriweather-v11-latin-700italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* LoveloBlack */
 @font-face {
-  font-family: 'LoveloBlack';
-  src: url("../assets/fonts/LoveloBlack.woff2") format("woff2"), url("../assets/fonts/LoveloBlack.woff") format("woff");
+  font-family: "LoveloBlack";
+  src: url("./assets/fonts/LoveloBlack.woff2") format("woff2"),
+    url("./assets/fonts/LoveloBlack.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-weight: normal;
   font-style: normal;
 }
 
 h1 {
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   color: #19191a;
   font-size: 4.1rem;
   margin-bottom: 0.5rem;
@@ -71,7 +81,7 @@ h1 {
 
 h2,
 h3 {
-  font-family: 'Merriweather', 'Georgia', serif;
+  font-family: "Merriweather", "Georgia", serif;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 34px;
@@ -126,7 +136,7 @@ a.link-underline {
 }
 
 a.link-underline:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 3px;
@@ -135,7 +145,7 @@ a.link-underline:before {
   background-color: currentColor;
   visibility: hidden;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -143,7 +153,7 @@ a.link-underline:before {
 a.link-underline:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 /* projects */
@@ -165,7 +175,7 @@ a.link-underline:hover:before {
 .project-image img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 
@@ -176,7 +186,7 @@ a.link-underline:hover:before {
 
 .project:hover {
   -webkit-box-shadow: 0 10px 20px #c7cad1;
-          box-shadow: 0 10px 20px #c7cad1;
+  box-shadow: 0 10px 20px #c7cad1;
   -webkit-transform: translate(0, -5px);
   transform: translate(0, -5px);
 }
@@ -184,13 +194,13 @@ a.link-underline:hover:before {
 .summary {
   padding: 2rem 5rem;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .summary .title {
   color: #19191a;
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   font-size: 4rem;
   line-height: 1.2;
   font-weight: 600;
@@ -201,7 +211,7 @@ a.link-underline:hover:before {
   font-size: 1.3rem;
   letter-spacing: 1px;
   margin: 1rem 0 1.5rem 0;
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   text-transform: uppercase;
 }
 
@@ -220,7 +230,7 @@ a.link-underline:hover:before {
 }
 
 button {
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 21px;
@@ -231,13 +241,13 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border: 2px solid var(--primary);
@@ -261,7 +271,7 @@ button:hover {
   -webkit-transform: translate(0, -3px);
   transform: translate(0, -3px);
   -webkit-box-shadow: 0 6px 10px #c7c7c9;
-          box-shadow: 0 6px 10px #c7c7c9;
+  box-shadow: 0 6px 10px #c7c7c9;
   opacity: 1;
 }
 
@@ -296,9 +306,9 @@ button a {
     left: 0;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 }
 
@@ -306,7 +316,7 @@ button a {
 footer {
   background-color: #19191a;
   color: #cccccc;
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   font-size: 0.7rem;
   padding: 4.5rem 0;
   width: 100%;
@@ -318,7 +328,7 @@ footer svg {
   width: 14px;
   height: 14px;
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 footer .footer-content {
@@ -326,13 +336,13 @@ footer .footer-content {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 footer .footer-button {
@@ -340,11 +350,11 @@ footer .footer-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 0 0.5rem;
   padding: 11px 12px;
   background-color: #19191a;
@@ -365,7 +375,7 @@ footer .footer-button:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 :root {
@@ -384,7 +394,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-family: 'Merriweather', 'Georgia', serif;
+  font-family: "Merriweather", "Georgia", serif;
 }
 
 body::-webkit-scrollbar {
@@ -433,11 +443,11 @@ form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 2rem 0;
 }
 
@@ -467,22 +477,22 @@ form input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
   .tools {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
 .tools p {
-  font-family: 'LoveloBlack', 'Helvetica', sans-serif;
+  font-family: "LoveloBlack", "Helvetica", sans-serif;
   font-size: 2.4rem;
   padding: 0 2rem 0 0;
 }
@@ -492,11 +502,11 @@ form input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style: none;
   padding: 0;
 }
